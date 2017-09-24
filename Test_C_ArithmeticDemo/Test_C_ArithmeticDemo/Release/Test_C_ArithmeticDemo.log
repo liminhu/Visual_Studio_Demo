@@ -1,0 +1,25 @@
+﻿生成启动时间为 2016/3/9 17:13:25。
+     1>项目“C:\Users\user\Desktop\VS写过的程序\Test_C_ArithmeticDemo\Test_C_ArithmeticDemo\Test_C_ArithmeticDemo.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\Test_C_ArithmeticDemo.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MyUtil.cpp TestArithmetic.cpp Test_C_ArithmeticDemo.cpp
+         MyUtil.cpp
+     1>MyUtil.cpp(28): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>MyUtil.cpp(49): warning C4018: “<”: 有符号/无符号不匹配
+     1>MyUtil.cpp(67): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\Microsoft Visual Studio 12.0\VC\include\string.h(118) : 参见“strcat”的声明
+     1>MyUtil.cpp(112): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\Microsoft Visual Studio 12.0\VC\include\string.h(118) : 参见“strcat”的声明
+     1>MyUtil.cpp(240): warning C4018: “<”: 有符号/无符号不匹配
+     1>MyUtil.cpp(250): warning C4018: “<”: 有符号/无符号不匹配
+     1>MyUtil.cpp(261): warning C4018: “<”: 有符号/无符号不匹配
+         TestArithmetic.cpp
+     1>TestArithmetic.cpp(91): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 参见“strncpy”的声明
+         Test_C_ArithmeticDemo.cpp
+     1>Test_C_ArithmeticDemo.cpp(18): error C3861: “system”:  找不到标识符
+     1>已完成生成项目“C:\Users\user\Desktop\VS写过的程序\Test_C_ArithmeticDemo\Test_C_ArithmeticDemo\Test_C_ArithmeticDemo.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.24
